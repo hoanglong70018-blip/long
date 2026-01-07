@@ -78,7 +78,7 @@ const Navbar: React.FC = () => {
 
                     <a
                         href="#pricing"
-                        className="group flex items-center gap-2 px-5 py-2.5 bg-light-primary text-dark-primary text-xs font-bold tracking-widest uppercase rounded-lg hover:bg-white transition-all duration-200"
+                        className="group flex items-center gap-2 px-5 py-2.5 bg-light-primary text-dark-primary text-xs font-bold tracking-widest uppercase rounded-lg hover:bg-orange-accent hover:text-light-primary hover:shadow-[0_0_15px_rgba(217,119,87,0.4)] transition-all duration-300"
                     >
                         <span>Start Building</span>
                         <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />

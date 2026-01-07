@@ -43,7 +43,7 @@ export const submitEmailToGoogleSheets = async (
         };
 
         // Send POST request to Google Apps Script Web App
-        const response = await fetch(GOOGLE_SHEETS_WEB_APP_URL, {
+        await fetch(GOOGLE_SHEETS_WEB_APP_URL, {
             method: 'POST',
             mode: 'no-cors', // Required for Google Apps Script
             headers: {

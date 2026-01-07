@@ -1,6 +1,7 @@
+```javascript
 import React from 'react';
 import { motion } from 'framer-motion';
-
+import { Clapperboard, Palette } from 'lucide-react';
 
 
 const FeaturesGrid: React.FC = () => {
@@ -16,7 +17,7 @@ const FeaturesGrid: React.FC = () => {
                         transition={{ duration: 0.6 }}
                         className="feature-card veo3 group"
                     >
-
+                        <Clapperboard className="w-12 h-12 text-mid-gray mb-6 stroke-[1.5]" />
                         <div className="text-xs font-bold tracking-widest text-mid-gray uppercase mb-2">VEO 3</div>
                         <h3 className="text-3xl font-heading font-bold mb-4 text-white group-hover:text-orange-accent transition-colors">
                             Video Generation <br /> Không Giới Hạn
@@ -49,7 +50,7 @@ const FeaturesGrid: React.FC = () => {
                         transition={{ duration: 0.6, delay: 0.2 }}
                         className="feature-card nanobana group"
                     >
-
+                        <Palette className="w-12 h-12 text-mid-gray mb-6 stroke-[1.5]" />
                         <div className="text-xs font-bold tracking-widest text-mid-gray uppercase mb-2">NANO BANANA PRO</div>
                         <h3 className="text-3xl font-heading font-bold mb-4 text-white group-hover:text-blue-accent transition-colors">
                             3D Visual Design <br /> Tự Động Hóa
@@ -75,8 +76,13 @@ const FeaturesGrid: React.FC = () => {
                     </motion.div>
                 </div>
             </div>
-        </section>
+        </section >
     );
 };
 
 export default FeaturesGrid;
+                            3D Visual Design <br /> Tự Động Hóa
+                        </h3>
+                        <p className="text-lg text-mid-gray mb-8 font-body leading-relaxed">
+                            Style signature của LongBest: 3D minimalist, high-tech, <br />
+                            pop-color backgrounds hoàn hảo cho social media.

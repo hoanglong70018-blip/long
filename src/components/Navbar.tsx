@@ -14,7 +14,6 @@ const Navbar: React.FC = () => {
         { name: 'Trang chủ', href: '/' },
         { name: 'Sản phẩm', href: isHome ? '#features' : '/#features' },
         { name: 'Kiến thức', href: isHome ? '#kien-thuc' : '/#kien-thuc' },
-        { name: 'Calendar', href: '/calendar' },
         { name: 'Tin tức', href: '#' },
     ];
 
